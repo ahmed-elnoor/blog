@@ -1,0 +1,13 @@
+1- arabic with laravel n
+2- make home bage and template with laravel y
+3- make see more pages y
+3- login and rigester with validation
+4- save auther in news y
+5- learn more about packedges
+6- rivision 
+
+7- how make voting with laravel 
+8- how make email-s lest 
+9- how make slideshow dinamic with laravel 
+10 read code make with laravel 
+11 make category

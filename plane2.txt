@@ -1,0 +1,35 @@
+category and sup category 
+ 
+
+create 
+update 
+delete 
+show 
+
+
+
+
+
+
+
+
+
+
+name     type    edit   delete 
+
+
+
+
+
+
+
+
+-------------------------
+conect the posts with categores
+--------------------------------
+login user , login admin 
+---------
+button likes
+-------------- 
+comments & notic 
+---------------

@@ -1,0 +1,25 @@
+		//validate
+		$validator = Validator::make(
+		
+		Input::all(),
+		array(
+		'subject' => 'required',
+		'long_news' => 'required'
+		)
+		);
+
+		
+		if($validator->fails()){
+			
+return Redirect::to('admin/news/'.$news->id.'/edit')->withErrors($validator)->withInput();
+			
+			} else {
+				
+				$news = News::find($id);
+				$news->subject    = Input::get('subject');	
+				$news->short_news = Input::get('short_news');
+				$news->long_news  = Input::get('long_news');
+				$news->save();
+				return Redirect::to('admin/news');
+				
+		}// end else
